@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lampadina on/off</title>
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.8/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="bg-dark text-white d-flex flex-column justify-content-center align-items-center">
 
-    <h1>Ciao sono una lampadina, mi puoi accendere e spegnere</h1>
-    <img id="whitelamp" class="lamp-visible" src="./img/white_lamp.png">
-    <img id="yellowlamp" class="lamp-invisible" src="./img/yellow_lamp.png">
-    <button id="button">Accendi</button>
+    <div>
+        <h1>Premi il bottone per accendere la lampadina</h1>
+    </div>
 
+    <div>
+        <img id="whitelamp" class="lamp-visible" src="./img/white_lamp.png">
+        <img id="yellowlamp" class="lamp-invisible" src="./img/yellow_lamp.png">
+    </div>
+    <div>
+        <button id="button">Accendi</button>
+    </div>
     <script src="./js/main.js"></script>
 </body>
 
