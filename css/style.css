@@ -10,3 +10,14 @@ body {
     font-family: sans-serif;
     padding: 1rem;
 }
+
+.lamp-visible {
+    display: block;
+}
+
+.lamp-invisible {
+    display: none;
+}
+
+
+
