@@ -3,11 +3,13 @@ console.log("JS ok")
 
 document.querySelector("#onoff").addEventListener("click", () => {
     
+    // Gestione lampadina
     document.querySelector("#whitelamp").classList.toggle("lamp-visible");
     document.querySelector("#whitelamp").classList.toggle("lamp-invisible");
     document.querySelector("#yellowlamp").classList.toggle("lamp-invisible");
     document.querySelector("#yellowlamp").classList.toggle("lamp-visible");
     
+    // Gestione button
     const buttoncontent = document.getElementById("onoff").innerHTML;
     
     if (buttoncontent == "Accendi") {
@@ -16,4 +18,6 @@ document.querySelector("#onoff").addEventListener("click", () => {
         document.getElementById("onoff").innerHTML = "Accendi"
     }
     
+    // Design button
+     document.querySelector("#onoff").classList.toggle("btn-light");
 });
