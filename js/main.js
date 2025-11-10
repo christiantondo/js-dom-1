@@ -21,4 +21,8 @@ document.querySelector("#onoff").addEventListener("click", () => {
     // Design button
      document.querySelector("#onoff").classList.toggle("btn-warning");
      document.querySelector("#onoff").classList.toggle("btn-outline-warning");
+
+     // Body light
+     document.querySelector("#body-light").classList.toggle("bg-dark");
+     document.querySelector("#body-light").classList.toggle("bg-warning");
 });
