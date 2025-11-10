@@ -18,3 +18,7 @@ body {
 .lamp-invisible {
     display: none;
 }
+
+.lamp-size {
+    width: 300px;
+}
